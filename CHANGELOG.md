@@ -6,6 +6,20 @@
 
 ##### Enhancements
 
+- None.
+
+##### Bug Fixes
+
+- None.
+
+## 3.7.7 (2026-09-04)
+
+##### Breaking
+
+- None.
+
+##### Enhancements
+
 - Added the `--retain-equatable-properties` and `--retain-hashable-properties` options to retain all properties on `Equatable` and `Hashable` types.
 - Expose a stable `@periphery//bazel:generated` package group so Bazel projects can grant visibility to Periphery's generated scan target and use `--bazel-check-visibility` safely.
 - Added a `--bazel-query` option to override the default Bazel top-level target query.
@@ -13,6 +27,7 @@
 ##### Bug Fixes
 
 - Follow embedded bundle and plugin edges transitively in the generated Bazel scan rule so custom Bazel queries can avoid building incorrectly transitioned targets while still analyzing extension- and plugin-reachable code.
+- Fix the version reported by `periphery version` being stuck at an old release because the 3.7.5 and 3.7.6 tags were cut without bumping `Version.swift`/`MODULE.bazel`.
 
 ## 3.7.4 (2026-04-26)
 
