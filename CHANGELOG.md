@@ -10,6 +10,20 @@
 
 ##### Bug Fixes
 
+- None.
+
+## 3.7.8 (2026-09-04)
+
+##### Breaking
+
+- None.
+
+##### Enhancements
+
+- None.
+
+##### Bug Fixes
+
 - Point the update checker and its release notes link at this fork (`superology-ios/periphery`) instead of upstream, and drop the upstream sponsorship message from the update notice.
 
 ## 3.7.7 (2026-09-04)
