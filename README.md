@@ -11,9 +11,6 @@
 <a href="https://github.com/peripheryapp/periphery/releases/latest">
 <img src="https://img.shields.io/github/release/peripheryapp/periphery.svg?color=008DFF"/></a>
 <img src="https://img.shields.io/badge/platform-macOS%20|%20Linux-008DFF">
-<a href="#sponsors-">
-<img src="https://img.shields.io/github/sponsors/peripheryapp?logo=githubsponsors&color=db61a2">
-</a>
 <br>
 <br>
 </p>
@@ -43,20 +40,14 @@
 - [Platforms](#platforms)
 - [Troubleshooting](#troubleshooting)
 - [Known Bugs](#known-bugs)
-- [Sponsors](#sponsors-) ![Sponsors](assets/sponsor.svg)
 
 ## Installation
 
 ### [Homebrew](https://brew.sh/)
 
 ```sh
-brew install periphery
-```
-
-### [Mint](https://github.com/yonaskolb/mint)
-
-```sh
-mint install peripheryapp/periphery
+brew tap superbet-group/tap
+brew install superbet-group/tap/periphery
 ```
 
 ### [Bazel](https://bazel.build/)
@@ -570,33 +561,3 @@ Due to some underlying bugs in Swift, Periphery may in some instances report inc
 | [56327](https://github.com/apple/swift/issues/56327) | Index store does not relate objc optional protocol method implemented in subclass |
 | [56189](https://github.com/apple/swift/issues/56189) | Index store should relate appendInterpolation from string literals |
 | [56165](https://github.com/apple/swift/issues/56165) | Index store does not relate constructor via literal notation |
-
-## Sponsors ![Sponsors](assets/sponsor-20.svg)
-
-Periphery is a passion project that takes a huge amount of effort to maintain and develop. If you find Periphery useful, please consider sponsoring through [GitHub Sponsors](https://github.com/sponsors/peripheryapp).
-
-Special thanks go to the following generous sponsors:
-
-### SaGa Corp
-
-[SaGa Corp](https://www.sagacorp.fr) develops unique technology for financial players and their customers.
-
-<a href="https://www.sagacorp.fr" alt="SaGa Corp">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/saga-corp-white.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/saga-corp-black.svg">
-        <img src="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/saga-corp-black.svg" width="150">
-    </picture>
-</a>
-
-### Emerge Tools
-
-[Emerge Tools](https://www.emergetools.com) is a suite of revolutionary products designed to supercharge mobile apps and the teams that build them.
-
-<a href="https://www.emergetools.com" alt="Emerge Tools">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/emerge-tools-vertical-white.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/emerge-tools-vertical-black.svg">
-        <img src="https://github.com/peripheryapp/periphery/raw/master/assets/sponsors/emerge-tools-vertical-black.svg">
-    </picture>
-</a>
